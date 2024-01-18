@@ -49,6 +49,17 @@ body {
     border-radius: 25px;
 }
 
+.Botao2 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    background-color: green;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+}
+
 /* Topo do site */
 #topo {
     position:fixed;
@@ -178,6 +189,35 @@ main h2 {
     border: 0;
 }
 
+/* wireframe */
+#wireframe {
+    padding: 50px 0px;
+    background: url(img/seguranca.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#textoWire {
+    color:#fff;
+    padding: 0px 10px;
+}
+
+#textoWire h2 {
+    margin-bottom: 10px;
+}
+
+#textoWire p {
+    margin-bottom: 40px;
+}
+
+#textoWire span {
+    display: none;
+}
+
+#qrcode {
+    display: none;
+}
+
 /* Smartphone Landscape*/
 @media (min-width: 576px) {
 
@@ -294,6 +334,22 @@ main h2 {
     .Flex3 {
         flex-direction: row;
         align-items: center;
+    }
+
+    /* Wireframe */
+
+    #wireframe {
+        background-attachment: fixed;
+    }
+
+    #wireframe span {
+        display: inline;
+       
+    }
+
+    #qrcode {
+        display: inline;
+        
     }
 
 }
